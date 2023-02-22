@@ -22,6 +22,7 @@
             <p>{{ comment.text|linebreaks }}</p>
         </div>
     {% endfor %}
+    <a class="btn btn-primary" href="data-gb-custom-block data-tag="url" data-0='add_comment_to_post'>Add comment</a>
     {% if post.comments.count == 0%}
 
     <p>No hay ningun comentario :(</p>
